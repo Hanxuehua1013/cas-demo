@@ -12,6 +12,7 @@ public class UserController {
 		//当前登录名
 		String name = SecurityContextHolder.getContext().getAuthentication().getName();
 		System.out.println("当前登录名："+name);
+		System.out.println("添点东西");
 	}
 	
 }
