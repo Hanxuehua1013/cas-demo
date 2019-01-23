@@ -12,8 +12,7 @@ public class UserController {
 		//当前登录名
 		String name = SecurityContextHolder.getContext().getAuthentication().getName();
 		System.out.println("当前登录名："+name);
-		
-	}
+System.out.println("添点东西");	}
 	// 添加一个方法
 	@RequestMapping("/findLoginUser1")
 	public void findLoginUser1(){
